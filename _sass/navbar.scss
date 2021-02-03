@@ -5,12 +5,30 @@
     font-family: "Poppins", serif;
     font-weight: 700 !important;
     padding-top: 10px;
+    // overflow: hidden;
 }
 
 .nav-content .logo-touch-target {
     display: inline-flex;
     height: 60%;
     width: 350px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-elements{
+    display: flex;
+}
+
+a{
+    transition: 0.5s;
+}
+
+a:hover, a:focus {
+    color: #ffcd69;
+    transition: 0.5s;
 }
 
 .nav-content .nav-logo {
@@ -22,10 +40,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    float: right;
 }
 
 .nav-logo img {
-    width: 200px;
+    width: 150px;
 }
 
 .nav-content nav {

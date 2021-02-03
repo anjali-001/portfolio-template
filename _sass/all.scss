@@ -4,6 +4,10 @@
 @import 'profile';
 @import 'page';
 
+html{
+  scroll-behavior: smooth;
+}
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -33,6 +37,12 @@ body {
     background-color: #f5f5f9;
     margin-bottom: 50px;
 }
+
+
+html{
+  scroll-behavior: smooth;
+}
+
 h2 {
     margin-bottom: 20px;
     margin-top: 20px;
